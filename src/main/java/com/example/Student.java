@@ -15,6 +15,7 @@ public class Student {
     }
 
     public void setAge(int age){
+        System.err.println(" SETTER CALLED BY SPRING");
         this.age=age;
     }
 
