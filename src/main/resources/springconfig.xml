@@ -7,6 +7,7 @@
     <!-- bean definitions here -->
 
     <bean id ="st1" class="com.example.Student">
+    <property name="age" value="30" />
     </bean>
     <bean id ="st2" class="com.example.Student">
     </bean>

@@ -16,6 +16,10 @@ public class App
         System.out.println( "Hello World!" );
 
         Student student=(Student) n1.getBean("st1");
+        // student.setAge(34);
+
+        
+        System.out.println(student.getAge());
         student.show();
 
         
