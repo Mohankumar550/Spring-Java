@@ -13,7 +13,7 @@ public class Student {
         this.writer=writer;
     }
 
-    public Writer getWriter(Writer writer){
+        public Writer getWriter(Writer writer){
         return writer;
 
     }
