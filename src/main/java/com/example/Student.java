@@ -9,6 +9,17 @@ public class Student {
     private int age;
     private String name;
 
+    private Pen pen;    
+    
+
+
+
+    public void setPen(Pen pen){
+        this.pen=pen;
+    }
+
+
+
     public void  show(){
         System.out.println("show is working");
 
@@ -27,5 +38,17 @@ public class Student {
     public String getName(){
         return this.name;
     }
+
+    public void writeexamp(){
+        pen.write();
+    }
+
+    public Pen getPen(Pen pen){
+        return pen;
+
+    }
+
+
+
     
 }

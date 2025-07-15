@@ -8,10 +8,15 @@
 
     <bean id ="st1" class="com.example.Student">
     <property name="age" value="30" />
+    <property name="pen" ref="p1"/>
+
     </bean>
     <bean id ="st2" class="com.example.Student">
     </bean>
     <bean  class="com.example.Teacher">
+    </bean>
+
+    <bean id="p1" class="com.example.Pen">
     </bean>
 
 </beans>

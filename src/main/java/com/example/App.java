@@ -17,6 +17,7 @@ public class App
 
         Student student=(Student) n1.getBean("st1");
         // student.setAge(34);
+        student.writeexamp();
 
         
         System.out.println(student.getAge());
