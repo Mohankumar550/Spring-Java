@@ -7,8 +7,8 @@
     <!-- bean definitions here -->
 
     <bean id ="st1" class="com.example.Student">
-    <property name="age" value="30" />
-    <property name="pen" ref="p1"/>
+    <!-- <property name="age" value="30" /> -->
+    <property name="writer" ref="pc1"/>
 
     </bean>
     <bean id ="st2" class="com.example.Student">
@@ -17,6 +17,8 @@
     </bean>
 
     <bean id="p1" class="com.example.Pen">
+    </bean>
+        <bean id="pc1" class="com.example.Pencil">
     </bean>
 
 </beans>

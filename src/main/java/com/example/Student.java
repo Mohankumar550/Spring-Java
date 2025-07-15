@@ -2,51 +2,28 @@ package com.example;
 
 public class Student {
 
-    // public Student(){
-    //     System.out.println("studen is created");
-    // }
+ 
 
-    private int age;
-    private String name;
-
-    private Pen pen;    
+    private Writer writer;    
     
 
 
 
-    public void setPen(Pen pen){
-        this.pen=pen;
+    public void setWriter(Writer writer){
+        this.writer=writer;
     }
 
-
-
-    public void  show(){
-        System.out.println("show is working");
+    public Writer getWriter(Writer writer){
+        return writer;
 
     }
 
-    public void setAge(int age){
-        System.err.println(" SETTER CALLED BY SPRING");
-        this.age=age;
-    }
-
-
-
-    public int getAge(){
-        return this.age;
-    }
-    public String getName(){
-        return this.name;
-    }
 
     public void writeexamp(){
-        pen.write();
+        writer.write();
     }
 
-    public Pen getPen(Pen pen){
-        return pen;
 
-    }
 
 
 

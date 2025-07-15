@@ -20,8 +20,6 @@ public class App
         student.writeexamp();
 
         
-        System.out.println(student.getAge());
-        student.show();
 
         
  

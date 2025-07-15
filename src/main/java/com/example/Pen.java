@@ -1,10 +1,8 @@
 package com.example;
 
-public class Pen{
+public class Pen implements Writer{
 
-    // public Pen(){
-    //     System.out.println("Pen obj");
-    // }
+
 
     public void write(){
         System.out.println("writing using pen");
